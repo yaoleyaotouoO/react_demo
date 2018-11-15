@@ -41,7 +41,7 @@ module.exports = {
                 }
             },
             {
-                test: /(\.ts)|(\.tsx)?$/,
+                test: /(\.ts)|(\.tsx)$/,
                 // 编译 ts 和 tsx 文件
                 loader: 'ts-loader'
             },
