@@ -12,9 +12,8 @@ module.exports = {
         port: 9000
     },
     // 入口
-    context: path.join(__dirname, 'src'),
     entry: {
-        app: "./index.tsx"
+        app: path.join(__dirname, 'src/index.tsx')
     },
     // output 为输出, path 代表路径, filename 代表文件名称
     output: {
