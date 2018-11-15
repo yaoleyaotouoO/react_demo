@@ -1,1 +1,2 @@
-# react_demo
+npm install
+npm run dev
